@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+}
+
+h1 {
+    display: block;
+    margin-left: 5px;
+
+}
+
+.nav a {
+    display: flex;
+    margin-right: 5px;
+    text-decoration: none;
+    color: snow;
+    border: 1px solid #2D3250;
+    height: 30px;
+    width: 90px;
+    background-color: #2D3250;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-be;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.get-started {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+    font-style: italic;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    height: 180px;
+    border : 1px solid #2D3250;
+    
+}
+.get-started a {
+    display: flex;
+    margin-right: 5px;
+    text-decoration: none;
+    color: snow;
+    height: 30px;
+    width: 90px;
+    background-color: #f90339ca;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
