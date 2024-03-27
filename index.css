@@ -5,6 +5,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    background-color: #f0f1f8;
 }
 
 /* this is for the heading */
@@ -97,3 +98,23 @@ h2 {
     border-radius: 25px;
 }
 
+.courses {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    flex-basis: 10%;
+}
+
+.courses div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    flex-direction: column;
+    background-color: snow;
+    margin: 10px;
+    height: 200px;
+    border-radius: 15px;
+}
