@@ -4,11 +4,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0;
-    flex-wrap: wrap;
     font-family: "Roboto", sans-serif;
 }
 
+/* this is for the heading */
 header {
     display: flex;
     width: 100%;
@@ -16,13 +15,14 @@ header {
     justify-content: center;
 }
 
+/* navigation bar*/
 .nav {
     display: flex;
     justify-content: space-between;
     width: 70%;
     align-items: center;
-    border: 1px solid rebeccapurple;
 }
+
 
 h1 {
     display: block;
@@ -44,14 +44,17 @@ h1 {
     border-radius: 25px;
 }
 
+/* info-section*/
 .info {
     display: flex;
     align-items: top;
     flex-direction: row;
-    flex-wrap: wrap;
-    height: 300px;
-
+    height: 250px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   justify-content: space-between;
 }
+
 
 .get-started {
     box-sizing: border-box;
@@ -59,8 +62,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     width: 50%;
-    height: 300px;
-    border: 1px solid blue;
+    height: 350px;
 }
 
 h2 {
@@ -69,27 +71,26 @@ h2 {
     font-size: 40px;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     margin: 30px;
+    margin-bottom: 0;
 }
 
 .get-started p {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: top;
     width: 90%;
-    height: 400px;
+    height: 70px;
     margin-bottom: 40px;
-    border : 1px solid #2D3250;
-    
+    margin-top: 0;
 }
 .get-started a {
     display: flex;
     margin-right: 5px;
     text-decoration: none;
     color: snow;
-    height: 30px;
-    width: 90px;
+    height: 50px;
+    width: 30%;
     background-color: #f90339ca;
     align-items: center;
     justify-content: center;
